@@ -5,6 +5,7 @@ on:
       platform:
         description: 'Platform to build (e.g. hi3516cv100_lite)'
         required: true
+        default: 'ssc30kq_ultimate'
       commit:
         description: 'Commit SHA to build (optional; defaults to current branch HEAD). Use this from `git bisect run` or for one-off historic rebuilds.'
         required: false
